@@ -1,0 +1,5 @@
+regex:
+  email: !ruby/regex /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+degit:
+  length_name: 10
+  length_email: 50
