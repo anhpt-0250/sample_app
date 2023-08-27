@@ -50,3 +50,8 @@ en:
   error: "error"
   confirm: "Confirmation"
   create_acc: "Create my account"
+  log_in : "Log in"
+  new_user: "New user?"
+  sign_up_now: "Sign up now"
+  invalid_mess: "Invalid email/password combination"
+  account: "Account"
