@@ -6,6 +6,8 @@ ruby "3.2.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "bcrypt", "3.1.13"
 gem "config"
+gem "faker", "2.21.0"
+gem "pagy"
 gem "rails", "~> 7.0.7"
 gem "rails-i18n"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]

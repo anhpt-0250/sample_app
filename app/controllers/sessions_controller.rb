@@ -18,10 +18,9 @@ class SessionsController < ApplicationController
   private
 
   def handle_successful_login user
-    reset_session
-    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
     log_in user
-    redirect_to user
+    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+    redirect_back_or user
   end
 
   def handle_failed_login
