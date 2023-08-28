@@ -1,2 +1,30 @@
-en:
+vi:
   hello: "Xin chao"
+  help: "Giup"
+  home: "Trang chu"
+  log_in: "Dang nhap"
+  title: "Ruby on Rails Tutorial Sample App"
+  content_help: "Ho tro: xem Ruby on Rails Tutorial o
+
+  <a href='https://www.railstutorial.org/help'>Rails Tutorial Help page</a>.
+  Ho tro voi ung dung nay, xem o
+  <a href='https://www.railstutorial.org/book'><em>Ruby on Rails Tutorial</em>
+  Sach</a>."
+  home_title: "Sample App"
+  home_content: "Day la trang chu <a href='https://www.railstutorial.org/'>Ruby on Rails Tutorial</a> ung dung vi du."
+  form_name1: "Form bao gom"
+  sign_up: "Dang ky"
+  not_found: "Khong tim thay nguoi dung!"
+  welcome: "Chao mung toi Sample App!"
+  error: "loi"
+  confirm: "Xac nhan"
+  create_acc: "Tao tai khoan"
+  new_user: "Nguoi dung moi?"
+  sign_up_now: "Dang ky ngay"
+  invalid_mess: "Email/password khong hop le"
+  account: "Tai khoan"
+  users: "Nguoi dung"
+  profile: "Thong tin"
+  setting: "Cai dat"
+  log_out: "Dang xuat"
+  remember_me: "Ghi nho mat khau"
