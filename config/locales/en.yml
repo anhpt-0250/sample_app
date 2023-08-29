@@ -71,3 +71,13 @@ en:
   delete: "delete"
   you_sure: "You sure?"
   delete_failed: "Delete failed"
+  forgot_password: Forgot password?
+  activation: "Account activation"
+  active: "Activate"
+  welcome_message: "Hi %{name}, Welcome to the Sample App! Click on the link below to activate your account:"
+  please_check: "Please check your email to activate your account."
+  account_activated: "Account activated!"
+  invalid_activation: "Invalid activation link"
+  account_not_activated: "Account not activated. Check your email for the activation link."
+  password_reset: "Password reset"
+  reset_title: "To reset your password click the link below:"
