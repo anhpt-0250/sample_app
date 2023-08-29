@@ -6,6 +6,9 @@ class User < ApplicationRecord
                     length: {maximum: Settings.degit.length_email},
                     format: {with: Settings.regex.email},
                     uniqueness: true
+  validates :password, presence: true,
+                       length: {minimum: Settings.length_6},
+                       allow_nil: true
 
   has_secure_password
   attr_accessor :remember_token

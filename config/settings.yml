@@ -3,3 +3,5 @@ regex:
 degit:
   length_name: 30
   length_email: 50
+page_10: 10
+length_6: 6
