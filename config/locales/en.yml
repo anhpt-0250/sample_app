@@ -71,7 +71,7 @@ en:
   delete: "delete"
   you_sure: "You sure?"
   delete_failed: "Delete failed"
-  forgot_password: Forgot password?
+  forgot_password: Forgot password
   activation: "Account activation"
   active: "Activate"
   welcome_message: "Hi %{name}, Welcome to the Sample App! Click on the link below to activate your account:"
@@ -80,4 +80,16 @@ en:
   invalid_activation: "Invalid activation link"
   account_not_activated: "Account not activated. Check your email for the activation link."
   password_reset: "Password reset"
+  reset_password: "Reset password"
   reset_title: "To reset your password click the link below:"
+  submit: "Submit"
+  create_info: "Email sent with password reset instructions"
+  create_danger: "Email address not found"
+  link_time: "This link will expire in two hours."
+  reset_password_message: "If you did not request your password to be reset, please ignore this email and
+  your password will stay as it is."
+  update_password: "Update password"
+  user_in_actived: "User is in_actived!"
+  reset_expire: "Password reset has expired."
+  can't_empty: "can't be empty"
+  reset_done: "Password has been reset."
