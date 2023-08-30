@@ -5,3 +5,7 @@ degit:
   length_email: 50
 page_10: 10
 length_6: 6
+digit_140: 140
+avatar_size: 80
+image_type: ["image/jpeg", "image/gif", "image/png"]
+max_size: 5

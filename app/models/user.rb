@@ -1,6 +1,8 @@
 class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token, :reset_token
 
+  has_many :microposts, dependent: :destroy
+
   validates :name, presence: true, length: {maximum: Settings.degit.length_name}
   validates :email, presence: true,
                     length: {maximum: Settings.degit.length_email},
@@ -14,6 +16,10 @@ class User < ApplicationRecord
   before_create :create_activation_digest
 
   has_secure_password
+
+  def feed
+    microposts
+  end
 
   # Returns true if a password reset has expired.
   def password_reset_expired?
