@@ -21,5 +21,12 @@ User.create!(name: "Example User",
     content = Faker::Lorem.sentence
     user.microposts.create!(content: content)
   end
-
 end
+
+# Create following relationships.
+users = User.all
+user = users.last
+following = users[2..20]
+followers = users[3..15]
+following.each { |followed| user.follow(followed) }
+followers.each { |follower| follower.follow(user) }
