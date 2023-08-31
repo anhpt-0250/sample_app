@@ -14,6 +14,7 @@ class Micropost < ApplicationRecord
 
   # default_scope -> {order created_at: :desc}
   scope :recent_posts, ->{order created_at: :desc}
+  scope :relate_user, ->(user_ids){where user_id: user_ids}
 
   delegate :name, to: :user, prefix: true
 
